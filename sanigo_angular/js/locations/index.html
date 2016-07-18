@@ -2,13 +2,12 @@
 
 <h2>Locations</h2>
 
-<h4>Add Location</h4>
-
-<form data-ng-submit="LocationIndexViewModel.create()">
-  <input data-ng-model="LocationIndexViewModel.newLocation.name" placeholder="Enter Name of Location">
-  <input data-ng-model="LocationIndexViewModel.newLocation.address" placeholder="Enter Address">
-  <button type="submit">Create</button>
+<form>
+  <input data-ng-model="LocationIndexViewModel.location.name" placeholder="Name"></input>
+  <input data-ng-model="LocationIndexViewModel.location.address" placeholder="Address"></input>
+  <button data-ng-click="LocationIndexViewModel.create()" type="submit">Create Location</button>
 </form>
+
 <hr />
 <div data-ng-repeat="location in LocationIndexViewModel.locations">
   <p>{{location.name}} </p>

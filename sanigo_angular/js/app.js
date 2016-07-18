@@ -23,12 +23,6 @@ function RouterFunction($stateProvider){
       controller: "LocationIndexController",
       controllerAs: "LocationIndexViewModel"
     })
-    .state("locationNew", {
-      url: "/locations/new",
-      templateUrl: "js/locations/new.html",
-      controller: "LocationNewController",
-      controllerAs: "LocationNewViewModel"
-    })
     .state("locationEdit", {
       url: "/locations/:id/edit",
       templateUrl: "js/locations/edit.html",
