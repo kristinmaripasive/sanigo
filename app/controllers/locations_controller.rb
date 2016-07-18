@@ -5,12 +5,12 @@ class LocationsController < ApplicationController
   def index
     @locations = Location.all
 
-    render json: @locations
+    render json: @locations.to_json, status: :ok
   end
 
   # GET /locations/1
   def show
-    render json: @location
+    render json: @location.to_json, status: :ok
   end
 
   # POST /locations
@@ -18,7 +18,7 @@ class LocationsController < ApplicationController
     @location = Location.new(location_params)
 
     if @location.save
-      render json: @location, status: :created, location: @location
+      render json: @location.to_json, status: :created, location: @location
     else
       render json: @location.errors, status: :unprocessable_entity
     end
@@ -27,7 +27,7 @@ class LocationsController < ApplicationController
   # PATCH/PUT /locations/1
   def update
     if @location.update(location_params)
-      render json: @location
+      render json: @location.to_json, status: :ok
     else
       render json: @location.errors, status: :unprocessable_entity
     end

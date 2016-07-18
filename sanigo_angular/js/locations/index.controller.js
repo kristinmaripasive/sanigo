@@ -8,5 +8,9 @@
 
   function LocationIndexControllerFunction(LocationFactory){
     this.locations = LocationFactory.query();
+
+
+
+
   }
 })();
