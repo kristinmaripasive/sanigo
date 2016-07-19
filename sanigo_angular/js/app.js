@@ -25,7 +25,7 @@ function RouterFunction($stateProvider){
     })
     .state("mapIndex", {
       url: "/map",
-      templateUrl: "js/locations/map.html.erb",
+      templateUrl: "js/locations/map.html",
       controller: "MapIndexController",
       controllerAs: "MapIndexViewModel"
     })
