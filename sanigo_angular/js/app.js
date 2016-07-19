@@ -49,4 +49,33 @@ function RouterFunction($stateProvider){
     });
   }
 
+
+
   })();
+
+  var initMap = function() {
+   var myLatLng = {lat: -25.363, lng: 131.044};
+   map = new google.maps.Map(document.getElementById('map'), {
+     zoom: 4,
+     center: myLatLng
+   });
+   //interact with locations in our database?
+  //  var locations = location.locations.map {|l| l.name}.to_json.html_safe
+   var mapCenter, map
+
+     this.locations.forEach(function(location){
+
+       convertNameToLatLong(location, function(coords){
+         if(!mapCenter){
+           mapCenter = coords
+          //creating the map and insterting to div
+
+         }
+         var marker = new google.maps.Marker({
+           position: coords,
+           map: map,
+           title: 'First location!'
+         });
+       })
+     })
+   }

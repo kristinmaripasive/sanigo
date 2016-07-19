@@ -1,37 +1,15 @@
-hello
+Location Map:
 
-<script async defer
-   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2VjNFJ2HdQMX_dFw6XoUJFTvyjjTcU68&callback=initMap">
-   </script>
 
-   <div id="map" style="height: 700px; width: 1200px; margin: 50px auto;background-color: blue"></div>
+
+   <div id="map" style="height: 700px; width: 1200px; margin: 50px auto"></div>
+
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2VjNFJ2HdQMX_dFw6XoUJFTvyjjTcU68&callback=initMap">
+      </script>
 
        <script>
-         function initMap() {
-           var myLatLng = {lat: -25.363, lng: 131.044};
 
-           //interact with locations in our database?
-           var locations = @location.locations.map {|l| l.name}.to_json.html_safe
-           var mapCenter, map
-
-             locations.forEach(function(location){
-               convertNameToLatLong(location, function(coords){
-                 if(!mapCenter){
-                   mapCenter = coords
-                  //creating the map and insterting to div
-                   map = new google.maps.Map(document.getElementById('map'), {
-                     zoom: 4,
-                     center: coords
-                   });
-                 }
-                 var marker = new google.maps.Marker({
-                   position: coords,
-                   map: map,
-                   title: 'First location!'
-                 });
-               })
-             })
-           }
        </script>
 
 <script>
