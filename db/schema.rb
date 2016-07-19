@@ -23,10 +23,8 @@ ActiveRecord::Schema.define(version: 20160718162154) do
   end
 
   create_table "locations", force: :cascade do |t|
-    t.string   "name"
-    t.string   "address"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string "name"
+    t.string "address"
   end
 
   add_foreign_key "comments", "locations"

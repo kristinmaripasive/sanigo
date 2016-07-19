@@ -9,8 +9,9 @@
 </form>
 
 <hr />
-<div data-ng-repeat="location in LocationIndexViewModel.locations">
+<div data-ng-repeat="location in LocationIndexViewModel.locations track by $index">
   <p>{{location.name}} </p>
   <p>{{location.address}} </p>
+  <button data-ng-click="LocationIndexViewModel.update()" type="submit">Edit</button>
   <button data-ng-click="LocationIndexViewModel.delete(location)">Delete</button>
 </div>
