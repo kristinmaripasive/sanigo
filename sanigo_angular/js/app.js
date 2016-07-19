@@ -17,6 +17,12 @@ function RouterFunction($stateProvider){
       url: "/",
       templateUrl: "js/locations/main.html"
     })
+    .state("locationNew", {
+      url: "/new",
+      templateUrl: "js/locations/new.html",
+      controller: "LocationNewController",
+      controllerAs: "LocationNewViewModel"
+    })
     .state("locationIndex", {
       url: "/locations",
       templateUrl: "js/locations/index.html",
