@@ -6398,3 +6398,46 @@ Started GET "/locations" for ::1 at 2016-07-19 17:10:39 -0400
 Processing by LocationsController#index as HTML
   [1m[36mLocation Load (15.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
 Completed 200 OK in 45ms (Views: 1.6ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 17:31:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 64ms (Views: 0.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 17:59:38 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 49ms (Views: 15.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 17:59:48 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 18:02:47 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.2ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 36ms (Views: 1.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 18:02:55 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 25ms (Views: 1.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 18:03:05 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 18:03:14 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.5ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.5ms)
