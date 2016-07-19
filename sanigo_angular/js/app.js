@@ -23,11 +23,11 @@ function RouterFunction($stateProvider){
       controller: "LocationIndexController",
       controllerAs: "LocationIndexViewModel"
     })
-    .state("locationEdit", {
-      url: "/locations/:id/edit",
-      templateUrl: "js/locations/edit.html",
-      controller: "LocationEditController",
-      controllerAs: "LocationEditViewModel"
+    .state("mapIndex", {
+      url: "/map",
+      templateUrl: "js/locations/map.html.erb",
+      controller: "MapIndexController",
+      controllerAs: "MapIndexViewModel"
     })
     .state("locationShow", {
       url: "/locations/:id",
