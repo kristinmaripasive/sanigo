@@ -28,7 +28,7 @@
           var markerLatLng = new google.maps.LatLng(location.latitude, location.longitude)
 
           var infowindow = new google.maps.InfoWindow({
-            content: "<a data-ui-sref='locationShow({id: location.id})'>" + location.name + "</a>"
+            content: "<a href='/#/locations/" + location.id + "'>" + location.name + "</a>"
           });
 
           var marker = new google.maps.Marker({
