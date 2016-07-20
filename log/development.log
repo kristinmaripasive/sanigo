@@ -9193,3 +9193,30 @@ Started GET "/locations" for ::1 at 2016-07-20 14:33:04 -0400
 Processing by LocationsController#index as HTML
   [1m[36mLocation Load (3.2ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
 Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 14:39:45 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 29ms (Views: 0.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/locations" for ::1 at 2016-07-20 14:40:22 -0400
+Processing by LocationsController#create as HTML
+  Parameters: {"name"=>"ricebar", "address"=>"1020 19th St NW, Washington, DC 20036", "location"=>{"name"=>"ricebar", "address"=>"1020 19th St NW, Washington, DC 20036"}}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "locations" ("name", "address", "latitude", "longitude") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "ricebar"], ["address", "1020 19th St NW, Washington, DC 20036"], ["latitude", 38.9031873], ["longitude", -77.043786]]
+  [1m[36m (3.3ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 390ms (Views: 4.7ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 14:40:22 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.5ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 14:40:25 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 1.4ms)
