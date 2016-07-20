@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20160718162154) do
   create_table "locations", force: :cascade do |t|
     t.string "name"
     t.string "address"
+    t.string "description"
   end
 
   add_foreign_key "comments", "locations"
