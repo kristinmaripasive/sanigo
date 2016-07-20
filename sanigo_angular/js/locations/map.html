@@ -31,12 +31,16 @@ marker.setMap(map);
 }
 google.maps.event.addDomListener(window, "load", initMap);
 
-
-//create marker
-
-
-
-
 </script>
+
+<!-- <script>
+
+  function convertNameToLatLong(name, callback){
+    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address=" + name, function(response){
+      callback(response.results[0].geometry.location);
+    })
+    // callback([lat, long])
+  }
+  </script> -->
 
 <div id="map_canvas"> </div>

@@ -7083,3 +7083,1145 @@ Started GET "/locations" for ::1 at 2016-07-19 22:08:44 -0400
 Processing by LocationsController#index as HTML
   [1m[36mLocation Load (0.5ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
 Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:09:30 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:09:44 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:09:46 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:09:47 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.5ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:09:49 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (3.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (3.5ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 20.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:39 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:41 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:42 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:44 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:45 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:47 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:10:48 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:11:50 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 41ms (Views: 4.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:11:53 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:11:54 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:11:55 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:11:57 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:11:59 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:12:01 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:12:03 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:12:05 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:12:07 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:12:15 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.3ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:12:18 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:02 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 50ms (Views: 3.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:08 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:20 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.2ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:23 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.5ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:26 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:28 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.2ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:13:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:25 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:28 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 12ms (Views: 3.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:31 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:32 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.5ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 11ms (Views: 3.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:33 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:35 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:36 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:37 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:38 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:40 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:41 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:14:46 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:17 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.3ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 33ms (Views: 2.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:20 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:21 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:22 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (6.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:24 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:25 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:26 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.5ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:27 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:30 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:31 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:33 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:34 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 33ms (Views: 0.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:36 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:16:37 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:17:55 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.2ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 33ms (Views: 1.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:17:58 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:17:59 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:00 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:02 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:03 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:05 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:07 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:08 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:10 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:18:11 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 57ms (Views: 2.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:32 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:33 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:35 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:37 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:40 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:42 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:44 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:46 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:48 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:51 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:53 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:55 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:57 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:19:58 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:00 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:02 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.2ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:03 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:05 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:06 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:17 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.3ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 43ms (Views: 4.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:19 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:22 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:25 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:30 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:32 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (7.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 43ms (Views: 0.3ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:35 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:20:39 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:22 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.3ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 66ms (Views: 3.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:37 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:40 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:42 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:44 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:45 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:47 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:49 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:50 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:52 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:55 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:21:57 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:16 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (4.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 109ms (Views: 3.7ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:21 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:24 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:26 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:28 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:30 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.0ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:32 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:33 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:38 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (5.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:22:41 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 59ms (Views: 0.4ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:49 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:51 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:52 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:53 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:55 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:23:59 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (3.2ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:26 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 45ms (Views: 5.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:31 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:34 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:36 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:37 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.1ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:38 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:54 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 47ms (Views: 2.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:56 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (3.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 28ms (Views: 0.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:24:59 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (6.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 23ms (Views: 0.9ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:01 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:02 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:03 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 10ms (Views: 1.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:50 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.5ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 35ms (Views: 1.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:52 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:54 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:56 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:58 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.2ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:25:59 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:01 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:03 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 1.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:04 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:11 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 56ms (Views: 2.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:15 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:17 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:19 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:21 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.9ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:23 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:24 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:26 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:27 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:29 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:31 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:32 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (6.5ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 27ms (Views: 5.4ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:34 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.1ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:36 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:38 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (4.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:40 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:41 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:43 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:45 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (4.5ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:47 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:48 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:50 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (3.2ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 19ms (Views: 0.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:26:51 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:27:05 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 12ms (Views: 1.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:27:08 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.6ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 22:27:10 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.9ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:17:01 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.8ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 21ms (Views: 1.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:17:18 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (3.8ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:17:22 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:17:22 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:17:59 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:18:09 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:18:11 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (2.3ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:18:13 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:18:16 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-19 23:18:18 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.4ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 09:00:36 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.7ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 21ms (Views: 1.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 09:00:39 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.6ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 15ms (Views: 9.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 09:00:40 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.4ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.4ms)
