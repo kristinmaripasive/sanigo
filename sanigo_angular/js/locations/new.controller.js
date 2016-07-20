@@ -19,19 +19,19 @@
       })
     }
 
-    this.update = function(location_id){
-      this.location.$update(location_id).then(function(response){
-        $state.go("locationIndex");
-      })
-    }
-
-    this.delete = function(location){
-      console.log("deleted")
-      this.location.$remove(location).then(function(response){
-        console.log(response)
-        $state.go("locationIndex");
-      })
-    }
+    // this.update = function(location_id){
+    //   this.location.$update(location_id).then(function(response){
+    //     $state.go("locationIndex");
+    //   })
+    // }
+    //
+    // this.delete = function(location){
+    //   console.log("deleted")
+    //   this.location.$remove(location).then(function(response){
+    //     console.log(response)
+    //     $state.go("locationIndex");
+    //   })
+    // }
 
   }
 
