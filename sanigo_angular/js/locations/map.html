@@ -20,10 +20,10 @@ Location Map:
     var map = new google.maps.Map(document.getElementById("map_canvas"),
             myOptions);
 
-
+var image = 'http://i.imgur.com/MuAdxDX.png';
     var marker = new google.maps.Marker({
     position: latlng,
-    title:"Hello World!"
+    icon: image
 });
 
 // To add the marker to the map, call setMap();
