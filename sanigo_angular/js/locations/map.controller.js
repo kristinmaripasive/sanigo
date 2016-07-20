@@ -1,5 +1,5 @@
 "use strict";
-var initMap;
+
 (function(){
   angular
     .module("locations")
@@ -8,7 +8,6 @@ var initMap;
 
   function MapIndexControllerFunction(LocationFactory){
     this.locations = LocationFactory.query()
-
   }
 
 

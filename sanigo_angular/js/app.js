@@ -48,33 +48,4 @@ function RouterFunction($stateProvider){
       controllerAs: "LocationShowViewModel"
     });
   }
-
-
-
-  })();
-
-  var initMap = function() {
-   var myLatLng = {lat: 38.904864, lng: -77.033996};
-   map = new google.maps.Map(document.getElementById('map'), {
-     zoom: 15,
-     center: myLatLng
-   });
-
-   var mapCenter, map
-
-     this.locations.forEach(function(location){
-
-       convertNameToLatLong(location, function(coords){
-         if(!mapCenter){
-           mapCenter = coords
-          //creating the map and insterting to div
-
-         }
-         var marker = new google.maps.Marker({
-           position: coords,
-           map: map,
-           title: 'First location!'
-         });
-       })
-     })
-   }
+})();
