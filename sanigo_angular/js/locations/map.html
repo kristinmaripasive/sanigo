@@ -33,14 +33,14 @@ google.maps.event.addDomListener(window, "load", initMap);
 
 </script>
 
-<!-- <script>
+<script>
 
-  function convertNameToLatLong(name, callback){
-    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address=" + name, function(response){
+  function convertAddressToLatLong(address, callback){
+    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?address=" + address, function(response){
       callback(response.results[0].geometry.location);
     })
     // callback([lat, long])
   }
-  </script> -->
+  </script>
 
 <div id="map_canvas"> </div>
