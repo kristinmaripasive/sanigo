@@ -3,7 +3,7 @@
 <h2>Locations</h2>
 
 <div data-ng-repeat="location in LocationIndexViewModel.locations track by $index">
-  <p>{{location.name}} </p>
+  <h3>{{location.name}} </h3>
   <p>{{location.address}} </p>
   <a data-ui-sref="locationEdit({id: location.id})">Edit/Delete</a>
 
