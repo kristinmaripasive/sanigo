@@ -36,6 +36,7 @@ class LocationsController < ApplicationController
   # DELETE /locations/1
   def destroy
     @location.destroy
+    render nothing: true
   end
 
   private
