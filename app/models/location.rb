@@ -4,9 +4,5 @@ class Location < ApplicationRecord
 
   geocoded_by :address
   after_validation :geocode
-  # 
-  # def coords
-  #   Geocoder.coordinates(:address)
-  # end
 
 end
