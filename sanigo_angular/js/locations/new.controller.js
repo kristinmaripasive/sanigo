@@ -15,7 +15,7 @@
       console.log("working")
       this.location.$save().then(function(response){
         vm.locations.push(response)
-        $state.go("locationIndex", ({id: response.id}));
+        $state.go("locationShow", ({id: response.id}));
       })
     }
 

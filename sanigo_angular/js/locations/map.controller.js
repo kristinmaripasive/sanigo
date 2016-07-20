@@ -10,11 +10,6 @@
       // this.locations = LocationFactory.query()
       var vm = this;
 
-
-
-
-
-
       vm.initMap = function() {
         var latlng = new google.maps.LatLng(38.904864, -77.033996);
         var myOptions = {
