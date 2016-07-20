@@ -48,5 +48,4 @@ function RouterFunction($stateProvider){
       controllerAs: "LocationShowViewModel"
     });
   }
-
-  })();
+})();
