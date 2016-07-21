@@ -6,7 +6,7 @@
     .factory("LocationFactory", ["$resource", LocationFactoryFunction])
 
  function LocationFactoryFunction($resource){
-   return $resource("http://localhost:3000/locations/:id", {}, {
+   return $resource("https://sanigo.herokuapp.com/locations/:id", {}, {
      update: { method: "PUT" }
    });
  }
