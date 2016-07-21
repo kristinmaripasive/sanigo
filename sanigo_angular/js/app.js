@@ -4,7 +4,8 @@
   angular
     .module("sanigo", [
       "ui.router",
-      "locations"
+      "locations",
+      "comments"
     ])
     .config([
       "$stateProvider",
