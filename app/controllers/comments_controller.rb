@@ -3,7 +3,8 @@ class CommentsController < ApplicationController
 
   # GET /comments
   def index
-    @comments = Comment.all
+    @location = Location.find(params[:location_id])
+    @comments = @location.comments
 
     render json: @comments.to_json, status: :ok
   end

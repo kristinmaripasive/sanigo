@@ -6,7 +6,7 @@
     .factory("CommentFactory", ["$resource", CommentFactoryFunction])
 
  function CommentFactoryFunction($resource){
-   return $resource("http://locahost:3000/locations/:location_id/comments/:id", {}, {
+   return $resource("http://localhost:3000/locations/:location_id/comments/:id.json", {}, {
      update: { method: "PUT" }
    });
  }

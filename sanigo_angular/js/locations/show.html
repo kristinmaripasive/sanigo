@@ -5,11 +5,17 @@
 <hr />
 
 <form>
-  <input data-ng-model="LocationShowViewModel.comment.author" placeholder="Author"></input>
   <input data-ng-model="LocationShowViewModel.comment.body" placeholder="Write comment here"></input>
+  <input data-ng-model="LocationShowViewModel.comment.author" placeholder="Author"></input>
   <button data-ng-click="LocationShowViewModel.create()" type="submit">Create Comment</button>
 </form>
 
 
-<h3>{{LocationShowViewModel.comment.body}}</h3>
-{{LocationShowViewModel.comment.author}}
+
+<h3>Comments:</h3>
+<div>
+  <div ng-repeat="comment in LocationShowViewModel.comments">
+    <p>{{comment.body}}</p>
+    <p>Posted by: {{comment.author}}</p>
+  </div>
+</div>
