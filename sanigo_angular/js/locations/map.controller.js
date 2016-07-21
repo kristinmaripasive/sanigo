@@ -28,7 +28,7 @@
           var markerLatLng = new google.maps.LatLng(location.latitude, location.longitude)
 
           var infowindow = new google.maps.InfoWindow({
-            content: "<a href='/#/locations/" + location.id + "'>" + location.name + "</a>"
+            content: "<a href='https://sanigo.herokuapp.com/locations/" + location.id + "'>" + location.name + "</a>"
           });
 
           var marker = new google.maps.Marker({
