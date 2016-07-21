@@ -1,3 +1,13 @@
 <h2>{{LocationShowViewModel.location.name}}</h2>
 <h3>{{LocationShowViewModel.location.address}}</h3>
 {{LocationShowViewModel.location.description}}
+
+<form>
+  <input data-ng-model="LocationShowViewModel.comment.author" placeholder="Author"></input>
+  <input data-ng-model="LocationShowViewModel.comment.body" placeholder="Write comment here"></input>
+  <button data-ng-click="LocationShowViewModel.create()" type="submit">Create Comment</button>
+</form>
+
+
+<h3>{{LocationShowViewModel.comment.body}}</h3>
+{{LocationShowViewModel.comment.author}}

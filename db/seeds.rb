@@ -9,6 +9,7 @@
 #   {title: "Second comment", body: "This is a terrible place!" , location: locations[1]},
 # ])
 
+
 data = JSON.parse(File.read("db/locations_data.json"))
 Location.destroy_all
 Location.create!(data)

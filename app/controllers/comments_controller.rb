@@ -5,16 +5,17 @@ class CommentsController < ApplicationController
   def index
     @comments = Comment.all
 
-    render json: @comments
+    render json: @comments.to_json, status: :ok
   end
 
   # GET /comments/1
   def show
-    render json: @comment
+    render json: @comment.to_json, status: :ok
   end
 
   # POST /comments
   def create
+    @location = Location.find(params[:location_id])
     @comment = Comment.new(comment_params)
 
     if @comment.save
@@ -26,8 +27,9 @@ class CommentsController < ApplicationController
 
   # PATCH/PUT /comments/1
   def update
+    @location = Location.find(params[:location_id])
     if @comment.update(comment_params)
-      render json: @comment
+      render json: @comment.to_json, status: :ok
     else
       render json: @comment.errors, status: :unprocessable_entity
     end
@@ -35,6 +37,7 @@ class CommentsController < ApplicationController
 
   # DELETE /comments/1
   def destroy
+    @location = Location.find(params[:location_id])
     @comment.destroy
   end
 
