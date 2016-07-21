@@ -17093,3 +17093,29 @@ Processing by LocationsController#show as HTML
   Parameters: {"id"=>"2"}
   [1m[35mLocation Load (0.7ms)[0m  SELECT  "locations".* FROM "locations" WHERE "locations"."id" = $1 LIMIT 1  [["id", 2]]
 Completed 200 OK in 14ms (Views: 3.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations/2" for ::1 at 2016-07-20 23:32:31 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations" WHERE "locations"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 31ms (Views: 1.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 23:32:50 -0400
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.7ms)[0m  SELECT "locations".* FROM "locations"
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/locations" for ::1 at 2016-07-20 23:33:05 -0400
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (5.5ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+Completed 200 OK in 14ms (Views: 1.9ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/locations/3" for ::1 at 2016-07-20 23:33:10 -0400
+Processing by LocationsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mLocation Load (0.9ms)[0m  SELECT  "locations".* FROM "locations" WHERE "locations"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.9ms)
