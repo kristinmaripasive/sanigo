@@ -5,7 +5,7 @@
   .module("locations")
   .controller("LocationShowController", ["LocationFactory", "$stateParams", "CommentFactory", LocationShowControllerFunction])
 
-
+  
 
 
   function LocationShowControllerFunction(LocationFactory, $stateParams, CommentFactory){

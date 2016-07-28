@@ -4,8 +4,6 @@ class CreateLocations < ActiveRecord::Migration
       t.string :name
       t.string :address
       t.string :description
-
-
     end
   end
 end

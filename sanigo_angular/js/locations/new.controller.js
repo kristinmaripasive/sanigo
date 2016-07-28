@@ -2,9 +2,9 @@
 
 (function(){
   angular
-    .module("locations")
-    .controller("LocationNewController", ["LocationFactory", "$stateParams", "$state", LocationNewControllerFunction])
-
+  .module("locations")
+  .controller("LocationNewController", ["LocationFactory", "$stateParams", "$state", LocationNewControllerFunction])
+  
 
   function LocationNewControllerFunction(LocationFactory, $stateParams, $state){
     this.locations = LocationFactory.query();

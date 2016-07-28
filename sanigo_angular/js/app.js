@@ -2,18 +2,18 @@
 
 (function(){
   angular
-    .module("sanigo", [
-      "ui.router",
-      "locations",
-      "comments"
-    ])
-    .config([
-      "$stateProvider",
-      RouterFunction
-    ])
+  .module("sanigo", [
+    "ui.router",
+    "locations",
+    "comments"
+  ])
+  .config([
+    "$stateProvider",
+    RouterFunction
+  ])
 
-function RouterFunction($stateProvider){
-  $stateProvider
+  function RouterFunction($stateProvider){
+    $stateProvider
     .state ("locationMain", {
       url: "/",
       templateUrl: "js/locations/main.html"

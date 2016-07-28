@@ -2,8 +2,8 @@
 
 (function(){
   angular
-    .module("locations")
-    .controller("LocationIndexController", ["LocationFactory", "$stateParams", "$state", LocationIndexControllerFunction])
+  .module("locations")
+  .controller("LocationIndexController", ["LocationFactory", "$stateParams", "$state", LocationIndexControllerFunction])
 
 
   function LocationIndexControllerFunction(LocationFactory, $stateParams, $state){

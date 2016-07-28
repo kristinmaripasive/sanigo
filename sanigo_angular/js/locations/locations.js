@@ -2,5 +2,5 @@
 
 (function(){
   angular
-    .module("locations", ["ngResource"]);
+  .module("locations", ["ngResource"]);
 })();
