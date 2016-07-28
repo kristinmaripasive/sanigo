@@ -1,5 +1,5 @@
 # Sanigo
-An Angular application to find public bathrooms according to one's location. It is a user generated application, meaning data stored in the database are created by users. Bathrooms will show reviews from other users and comments.
+An Angular application to find public bathrooms according to one's location. It is a user generated application, meaning data stored in the database are created by users. Bathrooms will show reviews and comments from other users.
 
 ## Deployment
 The application is deployed using heroku. Accessible here: https://kristinmaripasive.github.io/sanigo/sanigo_angular/#/
