@@ -11,7 +11,10 @@
     var vm = this;
     var marker;
     vm.initMap = function() {
-      var latlng = new google.maps.LatLng(38.904864, -77.033996);
+      navigator.geolocation.getCurrentPosition(function(position) {
+        (position.coords.latitude, position.coords.longitude);
+
+      var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
       var myOptions = {
         zoom: 18,
         center: latlng,
@@ -46,6 +49,7 @@
 
         });
       });
+    });
     }
   }
 
